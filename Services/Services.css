@@ -1,0 +1,548 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+h4 {
+	padding: 0;
+    margin: 0;
+}
+
+/*Navigation Bar*/
+
+.title img {
+	float: left;
+	height: 25%;
+	width: 25%;
+	margin-left: 90px;
+}
+
+.title h1 {
+	color: black;
+	font-size: 40px;
+	margin: 23px 20px 20px 40px;
+	text-align: center;
+	font-family: 'Roboto Slab', sans-serif;
+	text-decoration: underline;
+}
+
+.title a:hover {
+	text-decoration: none;
+}
+
+.title h4 {
+	font-size: 12px;
+	text-align: center;
+	margin: -15px 20px 20px 40px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.nav.nav-tabs {
+ margin-right: 180px;
+}
+
+.nav.nav-tabs li {
+	margin: 53px 30px 20px 30px;
+	color: black;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 150;
+}
+
+/*Background Picture and Main Section*/
+
+.main {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 100%), url(IMG_3405.JPG);
+	background-size: cover;
+	height: 650px;
+	margin-top: 15px;
+}
+
+.main h3 {
+	margin: 40px 0 20px 0;
+}
+
+.main h4 {
+	margin: 40px 0 10px 0;
+	font-weight: 500;
+}
+
+/*Services*/
+
+.container .col-md-7 {
+	margin-right: 25px;
+}
+
+.font p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+/*.font {
+	margin: 0px 50px 0 50px;
+}*/
+
+.services {
+	border-bottom: 1px solid black;
+	margin: 0 100px 20px 100px;
+}
+
+.services h1 {
+	margin-top: 60px;
+}
+
+.glasses p {
+	margin-bottom: 80px;
+}
+
+.rates {
+	border: 2px solid red;
+	margin: 30px 0 50px 30px;
+	height: 147px;
+	width: 333px;
+	text-align: center;
+
+}
+
+.rates p {
+	padding-bottom: 20px;
+}
+
+.pic img {
+	height: 80%;
+	width: 80%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 81px;
+	margin-left: 50px;
+}
+
+
+/*Insurance*/
+
+.insurance { 
+ background-color: #36343F;
+ }
+
+.insuranceinfo {
+	border-bottom: 1px solid white;
+	margin: 0 100px 20px 100px;
+}
+
+.insuranceinfo h1 {
+	margin-top: 50px;
+	color: white;
+}
+
+.insurance .col-md-6 {
+	text-align: center;
+}
+
+.insurance .btn {
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	list-style: none;
+	margin: 0 0 12px 0;
+}
+
+.insurance a:hover {
+	background-color: rgba(216,25,47,.5);
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.insurance ul {
+	margin: 0 0 50px -50px;
+}
+
+.insurance h3 {
+	margin: 20px 0 20px 0;
+	color: white;
+}
+
+#accept {
+	border-bottom: 1px solid white;
+	width: 50%;
+	margin: 40px 0 20px 0;
+}
+
+.insurance h4 {
+	height: 35px;
+	width: 150px;
+	font-weight: 500;
+	color: white;
+	background-color: rgba(216,25,47,.5);
+	border: 1px solid black;
+	padding: 7px 10px 7px 10px;
+}
+
+.insurance p {
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+/*Buttons*/
+
+/*Buttons*/
+
+.buttons .col-md-6 {
+	text-align: center;
+}
+
+.buttons a {
+	border: 1px solid black;
+	color: black;
+	border-radius: 3px;
+	margin: 80px 0 80px 0;
+	padding: 19px 75px 19px 75px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.buttons a:hover {
+	text-decoration: none;
+}
+
+.buttons h4 {
+	border: 1px solid black;
+	color: black;
+	border-radius: 3px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+	font-weight: bold;
+	height: 68px;
+	width: 410px;
+	text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+	background-color: black;
+	width: 100%;
+}
+
+.footer address {
+color: white;
+font-size: 12px;
+font-weight: 12px;
+margin-top: 10px;
+}
+
+#free {
+color: white;
+font-size: 12px;
+font-weight: 12px;
+margin-top: 10px;	
+padding: 0;
+}
+
+/*Media Queries*/
+
+/*Headers and Title*/
+
+@media screen and (max-width: 1437px) and (min-width: 1307px) {
+    
+    .title h1 {
+        font-size: 35px;
+    }
+    
+    .title h4 {
+    	font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1306px) and (min-width: 1046px) {
+    
+    .title h1 {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+        }
+     
+     .title h4 {
+    	font-size: 10px;
+    } 
+
+     .title img {
+        	height: 23%;
+			width:23%;
+			margin-left: 70px;
+			margin-top: 10px;
+   		 }
+}
+
+@media screen and (max-width: 1084px) and (min-width: 958px) {
+    
+    .title h1 {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-right: 10px;
+        
+    }
+    
+    .title h4 {
+    	font-size: 8px;
+    }   
+
+    .title img {
+        	height: 23%;
+			width:23%;
+			margin-left: 70px;
+			margin-top: 10px;
+   		 }
+    
+}
+
+@media screen and (max-width: 957px) and (min-width: 833px) {
+    
+    .title h1 {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 30px;
+        
+    }
+    
+    .title h4 {
+    	font-size: 8px;
+    }   
+
+    .title img {
+        	height: 23%;
+			width:23%;
+			margin-left: 30px;
+			margin-top: 15px;
+   		 }
+    
+}
+
+@media screen and (max-width: 832px) and (min-width: 0px) {
+    
+    .title h1 {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-right: 10px;
+        
+    }
+    
+    .title h4 {
+    	display: none;
+    }   
+
+    .title img {
+        	height: 23%;
+			width:23%;
+			margin-left: 30px;
+			margin-top: 30px;
+			display: none;
+   		 }
+    
+}
+
+
+/*Nav Bar*/
+
+@media screen and (max-width: 1437px) and (min-width: 1286px) {
+   
+    .nav.nav-tabs li {
+	margin: 48px 20px 20px 20px;
+	}
+}
+
+@media screen and (max-width: 1285px) and (min-width: 1150px) {
+   
+    .nav.nav-tabs li {
+	margin: 45px 10px 20px 10px;
+	}
+	.nav.nav-tabs {
+ 	margin-right: 140px;
+ 	padding-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 1149px) and (min-width: 925px) {
+   
+    .nav.nav-tabs li {
+	 margin: 40px 10px 20px 10px;
+	font-size: 13px;
+	font-weight: 100;
+	text-align: center;
+	}
+
+	.nav.nav-tabs {
+		margin-right: 100px;
+	
+	}
+}
+
+@media screen and (max-width: 924px) and (min-width: 838px) {
+   
+    .nav.nav-tabs li {
+	 margin: 40px 10px 20px 10px;
+	font-size: 13px;
+	font-weight: 100;
+	text-align: center;
+	}
+
+	.nav.nav-tabs {
+		margin-right: 30px;
+	
+	}
+}
+
+@media screen and (max-width: 837px) and (min-width: 804px) {
+   
+    .nav.nav-tabs li {
+	 margin: 40px 10px 20px 10px;
+	font-size: 13px;
+	font-weight: 100;
+	text-align: center;
+	width: 100%;
+	}
+
+	.nav.nav-tabs {
+		margin-right: 100px;
+	
+	}
+}
+
+
+
+@media screen and (max-width: 803px) and (min-width: 0px) {
+   
+    .nav.nav-tabs li {
+	 	margin: 40px 7px 20px 7px;
+		font-size: 11px;
+		font-weight: 80;
+		text-align: center;
+		width: 100%;
+	}
+
+	.nav.nav-tabs {
+		margin-right: 20px;
+	
+	}
+
+}
+
+/*Main Div - Buttons*/
+@media screen and (max-width: 992px) and (min-width: 0px) {
+   
+    .buttons a {
+	 	margin: 40px 0 40px 0;
+	}
+
+	.buttons h4 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/*Title*/
+
+@media screen and (max-width: 1346px) and (min-width: 1253px) {
+   
+ 	.services {
+		margin: 0 50px 20px 50px;
+	}
+
+	.insuranceinfo {
+		margin: 0 50px 20px 50px;
+	}
+
+}
+
+@media screen and (max-width: 1252px) and (min-width: 0px) {
+   
+ 	.services {
+		margin: 0 10px 20px 10px;
+	}
+
+	.insuranceinfo {
+		margin: 0 10px 20px 10px;
+	}
+
+}
+
+/*Title Buttons*/
+
+@media screen and (max-width: 1199px) and (min-width: 0px) {
+   
+ 	.insurance h4 {
+		margin: 15px 300px 15px 0;
+	}
+
+}
+
+
+/*Title Buttons*/
+
+@media screen and (max-width: 991px) and (min-width: 674px) {
+   
+ 	.pic img {
+		display: none;
+	}
+
+	.main {
+		height: 750px;
+	}
+
+	.glasses p {
+		margin-bottom: 40px;
+	}
+
+	.insurance h4 {
+		margin: 15px 550px 15px 0;
+	}
+}
+
+@media screen and (max-width: 673px) and (min-width: 0px) {
+   
+ 	.pic img {
+		display: none;
+	}
+
+	.main {
+		height: 750px;
+	}
+
+	.glasses p {
+		margin-bottom: 40px;
+	}
+
+	.font p {
+	font-size: 17px;
+	font-weight: 200;
+	}
+
+	.insurance p {
+	font-size: 17px;
+	font-weight: 200;
+	}
+
+}
+
+
+
+
