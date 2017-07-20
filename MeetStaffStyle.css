@@ -141,10 +141,14 @@ h4 {
 #review {
 	border: 3px solid white;
 	margin-bottom: 5%;
+	background-color: white;
+	color: black;
 }
 
 #border {
 	border: 3px solid white;
+	background-color: white;
+	color: black;
 }
 
 #picmargin {
