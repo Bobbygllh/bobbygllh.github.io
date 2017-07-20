@@ -99,7 +99,7 @@ h4 {
 	list-style: none;
 	display: inline-block;
 	float: left;
-	margin-left: 8%;
+	margin-left: 10%;
 }
 
 .lists {
@@ -109,6 +109,7 @@ h4 {
 	overflow: auto;
 	color: white;
 	width: 100%;
+	text-align: center;
 }
 
 
